@@ -1,0 +1,22 @@
+
+import 'package:flutter/material.dart';
+import 'package:quiz_check_answer/firstPage.dart';
+
+void main(){
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+
+    const MyApp({super.key});
+
+
+
+    @override 
+    Widget build(BuildContext context){
+      return const MaterialApp(
+        title: "this is quiz app",
+        home:FirstPage(),
+      );
+    }
+}
